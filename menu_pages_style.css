@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Spring_menu_body{
+    background-image: url("Spring-Food.png");
+}
+.Summer_menu_body{
+    background-image: url("Summer-food.png");
+}
+.Autumn_menu_body{
+    background-image: url("Autumn-food.jpeg");
+}
+.Winter_menu_body{
+    background-image: url("Winter-food.jpg");
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.Logo{
+    color: white;
+    font-family: Nunito;
+}
+.Logo>h2{
+    font-size: 4em;
+}
+.navigation a {
+    text-decoration: none;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.navigation a:hover, .navigation a.active{
+    background: orangered;
+    color: white;
+}
+
+.items_section {
+    font: 30px Nunito;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 3000px;
+    width: 80%;
+    margin: 200px;
+}
